@@ -71,6 +71,9 @@ L'application utilise l'API gratuite de football-data.org pour récupérer les d
 # Cloner le projet
 git clone https://github.com/Seydinamouhamed-Prog/football-analyzer
 cd football-analyzer
+Puis ouvrir .env et mettre :
+FOOTBALL_API_KEY=VOTRE_TOKEN_API_ICI
+FOOTBALL_API_URL=https://api.football-data.org/v4
 
 # Lancer avec Docker Compose
 docker-compose up --build
